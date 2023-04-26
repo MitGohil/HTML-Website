@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investopedia</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        b{
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+        th{
+            width: 800px;
+            font-family: sans-serif;
+        }
+        td{
+            font-family: sans-serif;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <th align="left">
+                <a href="https://www.investopedia.com/">
+                    <img src="data:image/png;base64,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" alt="Investopedia logo">
+                </a>
+
+            </th>
+            <th align="center">
+                <a href="https://www.investopedia.com/financial-term-dictionary-4769738"> EDUCATION</a>
+            </th>
+            <th align="center">
+                <a href="https://www.investopedia.com/news-4427706"> NEWS</a>
+            </th>
+            <th align="center">
+                <a href="https://www.investopedia.com/simulator/"> SIMULATOR</a>
+            </th>
+            <th align="center">
+                <a href="https://www.investopedia.com/personal-finance-4427760"> YOUR MONEY</a>
+            </th>
+            <th align="center">
+                <a href="https://www.investopedia.com/financial-advisor-4427709"> ADVISORS</a>
+            </th align="center">
+            <th>
+                <a href="https://academy.investopedia.com/?aca_ref=header_home_link_1">ACADEMY
+                    <img src="./Image/Academy logo.jpg" alt="Academy logo">
+                </a>
+            </th align="center">
+            <th><img src="./Image/Search.jpg" alt=""></th>
+        </tr>
+
+        <tr>
+            <td colspan="8" align="center">
+                <a href="https://njwealth.in/mf-distributor/?utm_source=Google&utm_medium=MF-GL-CD-CustomAudience-Gujarat-Hindi-WFA-728x90Ad1&gclid=EAIaIQobChMIuOmo4v7-_AIVek6dCR1RUAscEAEYASAAEgIIoPD_BwE"
+                    target="_blank">
+                    <img src="./Image/ad.jpg" alt="Advirtisment">
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p style="font-size: 15px;color: blue;"><a href="https://www.investopedia.com/">INVESTOPEDIA</a> 
+                    <strong>></strong>
+                    <a href="https://www.investopedia.com/investing-4427685">INVESTING</a></p> 
+            </td>
+            <td colspan="7">
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <b> Investing</b>
+            </td>
+            <td colspan="7">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan="8">
+
+                <p style="font-size: 20px;color: rgb(104, 104, 104);">Investing differs from
+                    trading in that investing is for the long-term, usually years or decades. </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="8">
+                <p style="font-size: 20px;color: rgb(102, 102, 102);">Investing is one of the
+                    key strategies to building long-term wealth and financial security.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td bgcolor="lightblue">
+                <p style="font-size: 15px;"> A BEGINNER'S GUIDE TO INVESTING</p>
+            </td>
+
+            <td colspan="7"></td>
+
+        </tr>
+
+        <tr>
+            <td colspan="2" rowspan="3" >
+                <a href="https://www.investopedia.com/articles/basics/11/3-s-simple-investing.asp">
+                    <img src="./Image/01.jpg" alt="Introduction to Investing">
+                </a>
+            </td>
+
+            <td colspan="4" align="center">
+                <a href="https://www.investopedia.com/articles/basics/06/invest1000.asp">
+                    <img src="./Image/02.jpg" alt="How to Invest in stock">
+                </a>
+            </td>
+
+            <td colspan="4" rowspan="3" align="center">
+                <a href="https://www.investopedia.com/articles/fundamental/03/022603.asp">
+                    <img src="./Image/05.jpg" alt="What are stock fundamentals">
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4" align="center">
+                <a href="https://www.investopedia.com/ask/answers/08/trading-frequency-commissions.asp">
+                    <img src="./Image/03.jpg" alt="How do I keep Commissions and Fees From Eating Trading Profits?">
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4" align="center">
+                <a href="https://www.investopedia.com/articles/bonds/08/bond-market-basics.asp">
+                    <img src="./Image/04.jpg" alt="4 Basic Things to Know About Bonds">
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="8" align="center">
+                <a href="https://njwealth.in/mf-distributor/?utm_source=Google&utm_medium=MF-GL-CD-CustomAudience-Gujarat-Hindi-WFA-728x90Ad1&gclid=EAIaIQobChMIuOmo4v7-_AIVek6dCR1RUAscEAEYASAAEgIIoPD_BwE"
+                    target="_blank">
+                    <img src="./Image/ad.jpg" alt="Advirtisment">
+                </a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
